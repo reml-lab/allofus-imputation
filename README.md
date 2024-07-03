@@ -13,6 +13,7 @@ This project aims to address the issue of missing data in hourly step count data
 Figure: The self-attention context window (Right) capturing the multi-timescale nature of the physical activity which is informed by the Autocorrelation Function (Left) from the step count data. 
 
 **Contact**: [Hui Wei](mailto:huiwei@cs.umass.edu)
+**Paper**:[https://arxiv.org/abs/2406.18848](https://arxiv.org/abs/2406.18848)
 
 ## Data
 
@@ -103,3 +104,16 @@ cd external_validation/model_name
 bash run_test.sh
 ```
 
+## Reference
+If you think our work is useful, please cite
+```
+@misc{wei2024temporallymultiscalesparseselfattention,
+      title={Temporally Multi-Scale Sparse Self-Attention for Physical Activity Data Imputation}, 
+      author={Hui Wei and Maxwell A. Xu and Colin Samplawski and James M. Rehg and Santosh Kumar and Benjamin M. Marlin},
+      year={2024},
+      eprint={2406.18848},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.18848}, 
+}
+```
