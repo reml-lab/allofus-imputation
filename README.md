@@ -13,6 +13,7 @@ This project aims to address the issue of missing data in hourly step count data
 Figure: The self-attention context window (Right) capturing the multi-timescale nature of the physical activity which is informed by the Autocorrelation Function (Left) from the step count data. 
 
 **Contact**: [Hui Wei](mailto:huiwei@cs.umass.edu)
+
 **Paper**:[https://arxiv.org/abs/2406.18848](https://arxiv.org/abs/2406.18848)
 
 ## Data
